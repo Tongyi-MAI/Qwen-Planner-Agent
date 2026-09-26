@@ -9,8 +9,9 @@
 <p>
   <a href="https://tongyi-mai.github.io/Qwen-Planner-Agent/"><img src="assets/images/badge_website.png" alt="Website" width="187" height="22"></a>
   <a href="https://tongyi-mai.github.io/Qwen-Planner-Agent/Qwen-Planner-Agent-Technical-Report.pdf"><img src="assets/images/badge_paper.png" alt="Paper" width="158" height="22"></a>
+  <a href="https://arxiv.org/abs/2609.29892"><img src="assets/images/badge_arxiv.png" alt="arXiv" width="100" height="22"></a>
   <a href="https://github.com/Tongyi-MAI/Qwen-Planner-Agent"><img src="assets/images/badge_github.png" alt="GitHub" width="102" height="22"></a>
-  <!-- Add the arXiv and Hugging Face badges here when the public paper ID is available. -->
+  <!-- Add the Hugging Face badge here when available. -->
   <!-- <a href="#video-demo"><img src="assets/images/badge_video.png" alt="Video Demo" width="102" height="22"></a> -->
 </p>
 
@@ -115,12 +116,14 @@ Our framework uses AI to help develop more capable agents across three connected
 ## 📝 Citation
 
 ```bibtex
-@techreport{mai2026qwenplanneragent,
+@misc{qu2026qwenplanneragent,
   title = {Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents},
-  author = {{MAI Team}},
-  institution = {Alibaba Token Hub, Alibaba Group},
+  author = {Tingyu Qu and Weigao Sun and Yuecheng Liu and Yucheng Zhao and Yi Zhu and Yifeng Ding and Qiyi Wang and Sihan Cao and Pengkun Jiao and Hanlei Xie and Xiongwei Wu and Qichao Wang and Haodong Zhang and Jiajun Liu and Yuhao Wang and Yuqing Xie and Junpeng Zhao and Long Chen and Ming Ma and Sihan Yang and Ziwang Zhao and Yanhao Jia and Liangquan Gong and Feida Zhu and Yiran Zhong and Steven Hoi},
   year = {2026},
-  month = sep,
-  url = {https://github.com/Tongyi-MAI/Qwen-Planner-Agent}
+  eprint = {2609.29892},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  doi = {10.48550/arXiv.2609.29892},
+  url = {https://arxiv.org/abs/2609.29892}
 }
 ```
